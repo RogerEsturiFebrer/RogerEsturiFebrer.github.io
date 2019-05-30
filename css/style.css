@@ -1,0 +1,119 @@
+///////////////body{
+    background-color: #f0c0ff;
+}
+
+.nom{
+    font-size: 9em;
+    font-weight: bold;
+    text-align: center;
+///////    color: #ffe100;
+}
+
+.iluminacio{
+        font-size: 9em;
+        text-align: center;
+
+}
+
+.imatges_iluminacio{
+            text-align: center;
+}
+
+.color_i_texturitzacio_2d {
+        text-align: center;
+    font-size: 9em;
+}
+
+.imatges_color_i_texturitzacio_2d{
+text-align: center;
+}
+
+.modelatge{
+    text-align: center;
+    font-size: 9em;
+}
+
+.videos_modelatge{
+}
+
+.animacio_3d{
+    text-align: center;
+    font-size: 9em;
+}
+
+.video_animacio_3d{
+}
+
+.imatges_animacio_3d{
+}
+
+.animacio_2d{
+    text-align: center;
+    font-size: 9em;
+}
+
+.videos_animacio_2d{
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+.img1 {
+    margin: 10px;
+      position: absolute;
+}
+.img1:hover{
+    width:400px;
+    height:auto;
+}
+
+.img2 {
+    margin: 10px;
+}
+
+#contenidor-xxss{
+text-align: center;    
+}
+
+.fa-instagram{
+font-size: 60px;  
+color: tomato;
+    margin: 10px;
+}
+.fa-envelope{
+    font-size: 60px;  
+color: tomato;
+    margin: 10px;
+}
+
+#contenidor{
+    margin:30px;
+    padding:5px;
+    position: fixed; 
+    bottom:60%;
+    left:0%;
+    width: 10%;
+    background-color: grey;
+    text-align: center;    
+    color: white;
+    }
+
+.contenidor_boto{
+    border: 1px  solid white;
+    background-color: lightgrey;
+    color: black;
+        margin:5px;
+
+}
