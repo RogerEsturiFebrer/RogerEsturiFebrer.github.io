@@ -1,17 +1,41 @@
-///////////////body{
+body{
     background-color: #f0c0ff;
 }
+
 
 .nom{
     font-size: 9em;
     font-weight: bold;
     text-align: center;
-///////    color: #ffe100;
+    color: #ffe100;
+    background-image: url('../imatges/BG.jpg'); 
+    background-position: center;
 }
 
-.iluminacio{
+.contenidor-flex{
+    margin:5px;
+    padding:5px;
+    display: flex;
+    text-align: center;
+background-color:  #ffe100;
+}
+
+.contenidor-boto{
+    flex: 1 150px;  
+    margin:5px;
+    padding:5px;
+background-color: #b60000 ; 
+    }
+
+.contenidor-boto:hover {
+color: black;
+    background-color: #f0c0ff;
+}
+
+#iluminacio{
         font-size: 9em;
         text-align: center;
+    color: #ffe100;
 
 }
 
@@ -19,46 +43,99 @@
             text-align: center;
 }
 
-.color_i_texturitzacio_2d {
+#color_i_texturitzacio_2d {
         text-align: center;
     font-size: 9em;
+    color: #ffe100;
 }
 
 .imatges_color_i_texturitzacio_2d{
 text-align: center;
 }
 
-.modelatge{
+#modelatge{
     text-align: center;
     font-size: 9em;
+    color: #ffe100;
 }
 
 .videos_modelatge{
+    text-align: center;
 }
 
-.animacio_3d{
+#animacio_3d{
     text-align: center;
     font-size: 9em;
+    color: #ffe100;
 }
 
 .video_animacio_3d{
+    text-align: center;
 }
 
 .imatges_animacio_3d{
+        text-align: center;
+
 }
 
-.animacio_2d{
+#animacio_2d{
     text-align: center;
     font-size: 9em;
+    color: #ffe100;
 }
 
 .videos_animacio_2d{
+    text-align: center;
 }
 
+#footer{
+    margin:5px;
+    padding:5px;
+    position: fixed; 
+    bottom:70%;
+    left:1%;
+    width: 15%;
+    background-color: #ffe100;
+    }
 
+.contenidor-footer{
+        margin:5px;
+     text-align: center;
+    border-bottom: 3px solid #b60000;
+}
+.contenidor-footer-last{
+        margin:5px;
+     text-align: center;
+}
 
+a{
+    text-decoration: none;
+    color: black;
+}
 
+a:hover{
+    color:white;
+}
 
+#footer1{
+position: fixed;
+   width: 150px;
+    height: 150px;
+    bottom:40%;
+    right:10%;
+    border-radius: 50%;
+}
+
+.art{
+    background-color: #b60000;
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 20px solid #ffe100;
+    font-size: 5em;
+   
+}
 
 
 
@@ -70,18 +147,18 @@ text-align: center;
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+
+
 .img1 {
     margin: 10px;
-      position: absolute;
+        height:auto;
 }
-.img1:hover{
-    width:400px;
-    height:auto;
-}
+
 
 .img2 {
     margin: 10px;
 }
+
 
 #contenidor-xxss{
 text-align: center;    
@@ -97,23 +174,52 @@ color: tomato;
 color: tomato;
     margin: 10px;
 }
+/////////////////////////////////////////////////////////////////////////////////////
 
-#contenidor{
-    margin:30px;
-    padding:5px;
-    position: fixed; 
-    bottom:60%;
-    left:0%;
-    width: 10%;
-    background-color: grey;
+.name{
+        text-align: center;
+    background-color: aqua;
+}
+
+.dades{
+           text-align: center; 
+    border-bottom: 3px solid #ffe100;
+        border-top: 3px solid #ffe100;
+            padding:10px;
+
+
+}
+
+
+
+.formacio-reglada{
+                   text-align: left; 
+                padding:15px;
+
+}
+
+.experiencia-professional{
+                   text-align: left; 
+    border-bottom: 3px solid #ffe100;
+        border-top: 3px solid #ffe100;
+    padding:15px;
+}
+
+.idiomes{
+                   text-align: left;  
+    padding:15px;
+}
+
+.informatica{
+                   text-align: left;   
+        border-top: 3px solid #ffe100;
+    padding:15px;
+}
+
+.img5{
+                       margin:5px;
+    padding:auto;
+    display: flex;
     text-align: center;    
-    color: white;
-    }
-
-.contenidor_boto{
-    border: 1px  solid white;
-    background-color: lightgrey;
-    color: black;
-        margin:5px;
 
 }
